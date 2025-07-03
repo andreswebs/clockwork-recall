@@ -1,0 +1,22 @@
+{
+  "mcp": {
+    "servers": {
+      "filesystem": {
+        "type": "stdio",
+        "command": "${env:HOME}/.rd/bin/docker",
+        "args": [
+          "run",
+          "--interactive",
+          "--rm",
+          "--volume",
+          "${env:HOME}/.ai:/ai:ro",
+          "--volume",
+          "${workspaceFolder}:/workspace",
+          "mcp/filesystem",
+          "/ai",
+          "/workspace"
+        ]
+      }
+    }
+  }
+}

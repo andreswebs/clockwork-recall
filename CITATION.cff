@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: clockwork-recall
+message: Cite using the metadata from this file.
+type: software
+authors:
+  - given-names: Andre
+    family-names: Silva
+    email: andreswebs@pm.me
+    orcid: https://orcid.org/0009-0003-0298-7451
+repository-code: https://github.com/andreswebs/clockwork-recall
+abstract: >-
+  An ethnographic experiment to vibe-code an RPG game using AI.
+keywords:
+  - RPG
+  - GenAI
+license: CC-BY-SA-4.0
