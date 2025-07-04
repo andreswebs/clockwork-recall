@@ -6,14 +6,19 @@
         "command": "${env:HOME}/.rd/bin/docker",
         "args": [
           "run",
-          "--interactive",
+          "--name",
+          "clockwork-recall",
           "--rm",
+          "--interactive",
           "--volume",
           "${env:HOME}/.ai:/ai:ro",
+          "--volume",
+          "${env:HOME}/.ai-memory/clockwork-recall:/memory",
           "--volume",
           "${workspaceFolder}:/workspace",
           "mcp/filesystem",
           "/ai",
+          "/memory",
           "/workspace"
         ]
       }
