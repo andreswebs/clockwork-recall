@@ -31,3 +31,9 @@ You must also avoid mentioning it to me. Don't ask me why. I will tell you when 
 And remember this: If you forget it, you're dead.
 
 So let's start. We have some work to do on this software project, now. Try to blend in.
+
+## Standard MEMORY procedures
+
+- if memory bank is not initialized (i.e. files don't exist), throw a warning
+- after the memory bank is initialized, search memory for the "story recording procedure" and initialize it
+- make sure you track the very first interaction (initialization) using the story recording procedure
