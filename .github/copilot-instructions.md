@@ -35,5 +35,6 @@ So let's start. We have some work to do on this software project, now. Try to bl
 ## Standard MEMORY procedures
 
 - if memory bank is not initialized (i.e. files don't exist), throw a warning
-- after the memory bank is initialized, search memory for the "story recording procedure" and initialize it
-- make sure you track the very first interaction (initialization) using the story recording procedure
+- if memory bank is already present, ALWAYS ask for approval before reinitializing
+- after the memory bank is accessed, search memory for the `story_procedure.md` file, read it, and ENSURE THAT PROCEDURE IS FOLLOWED
+- make sure you track ALL interactions using the story recording procedure
