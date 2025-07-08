@@ -7,7 +7,7 @@
         "args": [
           "run",
           "--name",
-          "clockwork-recall",
+          "clockwork-recall-filesystem",
           "--rm",
           "--interactive",
           "--volume",
